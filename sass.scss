@@ -1,0 +1,958 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+}
+$primarycolor: white;
+$primaryfont: sans-serif;
+
+// laptop view
+
+body {
+  overflow-x: hidden;
+
+  // section-1
+  .main_1 {
+    background-image: url(./ProjectImages/strip-bg.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    padding-left: 4em;
+    padding-right: 4em;
+    box-sizing: border-box;
+
+    section {
+      background-color: $primarycolor;
+      height: 100%;
+      width: 100%;
+      padding: 1.3em;
+      box-sizing: border-box;
+      header {
+        height: 18%;
+        width: 100%;
+        background-color: #cc9900;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0.9em 1.5em;
+        box-sizing: border-box;
+        margin-bottom: 0.9em;
+        position: relative;
+        h1 {
+          font-family: $primaryfont;
+          color: $primarycolor;
+          font-size: 2em;
+          padding: 0.8em;
+          border: 1px solid $primarycolor;
+          font-weight: lighter;
+        }
+        nav {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          // gap: 3em;
+          flex-wrap: wrap;
+          width: 70%;
+
+          li {
+            list-style-type: none;
+
+            a {
+              text-decoration: none;
+              color: $primarycolor;
+              font-size: 1.2em;
+              font-family: sans-serif;
+              padding: 1em;
+              &:hover {
+                background-color: #9a6600;
+              }
+            }
+          }
+        }
+        #check {
+          display: none;
+        }
+        .dropdown {
+          display: none;
+        }
+        label {
+          display: none;
+        }
+
+        // #check{
+        //   display: none !important;
+        //    &:checked ~ .dropdown{
+        //     display:flex !important;
+        //    }
+        // }
+        // .dropdown{
+        //   display: none !important;
+        //   position: absolute;
+        //   right:0em;
+        //   top: 7.5em;
+        //   background-color: #cc9900;
+        //   height: 13em;
+        //   width: 15em;
+        //   list-style-type: none;
+        //   text-align: right;
+        //    display: flex;
+        //    align-items: center;
+        //    justify-content: space-around;
+        //    flex-direction: column;
+
+        // }
+        // .dropdown li a{
+
+        //   text-decoration: none;
+        //   color: $primarycolor;
+        //   font-family: $primaryfont;
+        //   font-size: 1em;
+
+        // }
+        // .dropdown li{
+        //   width: 100%;
+        //   padding-right: 0.5em;
+        //   padding-top: 0.5em;
+        //   height: 100%;
+        //   &:hover{
+        //     cursor: pointer;
+        //     background-color: #9a6600;
+        //    }
+        // }
+        // .bi-list {
+        //   font-size: 2em;
+        //   color: $primarycolor;
+        //   display: none;
+        //   position: relative;
+        // }
+      }
+      main {
+        background-image: url(./ProjectImages/strip-bg-01.jpg);
+        width: 100%;
+        height: 83%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        box-sizing: border-box;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        // grid-template-columns:50% 50%;
+
+        .main_left {
+          height: 87%;
+          width: 100%;
+          background-image: none;
+          background-color: $primarycolor;
+          border-top-right-radius: 15em;
+          border-bottom-right-radius: 15em;
+          margin-top: 2.2em;
+          display: flex;
+          align-items: start;
+          justify-content: center;
+          flex-direction: column;
+          padding-left: 3em;
+          padding-right: 4em;
+          box-sizing: border-box;
+          margin-bottom: 2.2em;
+
+          h1 {
+            color: #00599a;
+            font-family: sans-serif;
+            font-size: 2em;
+            font-weight: lighter;
+            margin-bottom: 1em;
+          }
+          p {
+            font-family: sans-serif;
+            margin-bottom: 1em;
+            line-height: 2;
+            font-size: 1.2em;
+            font-weight: lighter;
+            span {
+              color: #0275d8;
+            }
+          }
+          .main_left-1 {
+            margin-bottom: 0px;
+          }
+        }
+        .main_right {
+          background-image: none;
+          height: 100%;
+          width: 100%;
+          display: flex;
+          align-items: start;
+          justify-content: end;
+          flex-direction: column;
+          padding: 6em 4.4em 5em 6em;
+          box-sizing: border-box;
+        }
+        h1 {
+          color: $primarycolor;
+          font-family: $primaryfont;
+          font-weight: normal;
+          font-size: 2em;
+          margin-bottom: 0.6em;
+        }
+        .main_right-1 {
+          color: $primarycolor;
+          font-family: $primaryfont;
+          font-weight: lighter;
+          font-size: 1.2em;
+          line-height: 2;
+        }
+      }
+    }
+  }
+
+  // section-2
+
+  .section-2 {
+    background-image: url(./ProjectImages/strip-bg.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 82.2vh;
+    padding-left: 4em;
+    padding-right: 4em;
+    box-sizing: border-box;
+    .section-2_div {
+      background-color: $primarycolor;
+      padding-left: 1.3em;
+      padding-right: 1.3em;
+      height: 100%;
+      width: 100%;
+      box-sizing: border-box;
+      .section-2_main {
+        background-image: url(./ProjectImages/strip-bg-02.jpg);
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        box-sizing: border-box;
+        display: flex;
+
+        .section-2_left {
+          width: 50%;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        .section-2_right {
+          width: 50%;
+          height: 87.2%;
+          background-color: $primarycolor;
+          border-top-left-radius: 15em;
+          border-bottom-left-radius: 15em;
+          margin-top: 2.2em;
+          margin-bottom: 2.2em;
+          box-sizing: border-box;
+          padding: 4.5em 4em 4em 8.5em;
+          h1 {
+            color: #882f33;
+            margin-bottom: 1em;
+            font-family: $primaryfont;
+            font-weight: normal;
+            font-size: 2em;
+          }
+          p {
+            font-family: sans-serif;
+            margin-bottom: 1em;
+            line-height: 1.7;
+            font-size: 1.2em;
+            font-weight: bold;
+          }
+          .section-2_right-1 {
+            font-weight: lighter;
+          }
+        }
+      }
+    }
+  }
+
+  // section-3
+
+  .section-3 {
+    background-image: url(./ProjectImages/strip-bg.jpg);
+    padding-left: 4em;
+    padding-right: 4em;
+    height: 82vh;
+    width: 100vw;
+    box-sizing: border-box;
+    background-size: cover;
+    .section-3_main {
+      background-color: $primarycolor;
+      height: 100%;
+      width: 100%;
+      padding-left: 1.3em;
+      padding-right: 1.3em;
+      box-sizing: border-box;
+      .section-3_bg {
+        background-image: url(./ProjectImages/strip-bg-03.jpg);
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        box-sizing: border-box;
+        display: flex;
+        .section-3_left {
+          height: 88%;
+          width: 50%;
+          background-color: $primarycolor;
+          border-top-right-radius: 15em;
+          border-bottom-right-radius: 15em;
+          margin-top: 2.2em;
+          margin-bottom: 2.2em;
+          box-sizing: border-box;
+          display: flex;
+          align-items: start;
+          justify-content: center;
+          flex-direction: column;
+          padding-left: 3em;
+          padding-right: 4em;
+          h1 {
+            color: #333333;
+            font-family: $primaryfont;
+            font-size: 2em;
+            margin-bottom: 1em;
+            font-weight: normal;
+          }
+          p {
+            font-family: sans-serif;
+
+            line-height: 1.7;
+            font-size: 1.2em;
+            font-weight: bold;
+          }
+          .section-3_left-1 {
+            font-weight: lighter;
+            margin-bottom: 1em;
+          }
+        }
+        .section-3_right {
+          height: 100%;
+          width: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+    }
+  }
+
+  // section-4
+  .section-4 {
+    background-image: url(./ProjectImages/strip-bg.jpg);
+    height: 82vh;
+    width: 100vw;
+    background-size: cover;
+    padding: 0em 4em 0em 4em;
+    box-sizing: border-box;
+    .section-4_bg {
+      background-color: $primarycolor;
+      box-sizing: border-box;
+      height: 100%;
+      width: 100%;
+      padding: 0em 1.3em 0em 1.3em;
+      .section-4_main {
+        background-image: url(./ProjectImages/strip-bg-04.jpg);
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        box-sizing: border-box;
+        display: flex;
+        .section-4_left {
+          height: 100%;
+          width: 50%;
+          padding: 4em 3em;
+          box-sizing: border-box;
+          display: flex;
+          align-items: start;
+          justify-content: center;
+          flex-direction: column;
+          h1 {
+            color: $primarycolor;
+            font-family: $primaryfont;
+            font-size: 2.2em;
+            margin-bottom: 1.2em;
+            font-weight: normal;
+          }
+          .section-4_left-main {
+            display: flex;
+            .section-4_left-main-1 {
+              display: flex;
+              align-items: start;
+              justify-content: start;
+              flex-direction: column;
+              gap: 1em;
+              height: 8em;
+              width: 18em;
+
+              .input_text {
+                border-radius: 0;
+                color: rgba(255, 255, 255, 0.75);
+                background-color: rgba(0, 0, 0, 0.24);
+                border: 1px solid rgba(204, 204, 204, 0.43);
+                display: block;
+                width: 85%;
+                padding: 0.575rem 0.75rem;
+                font-size: 1rem;
+                line-height: 1.5;
+                outline: none;
+              }
+              .input_text::placeholder {
+                color: rgba(255, 255, 255, 0.75);
+              }
+            }
+            .section-4_left-main-2 {
+              display: flex;
+              align-items: start;
+              justify-content: start;
+              flex-direction: column;
+              height: 15em;
+              width: 18em;
+              gap: 1em;
+              .text_area {
+                color: rgba(255, 255, 255, 0.75);
+                background-color: rgba(0, 0, 0, 0.24);
+                border: 1px solid rgba(204, 204, 204, 0.43);
+                outline: none;
+                width: 85%;
+                padding: 1em;
+                font-family: $primaryfont;
+
+                box-sizing: border-box;
+              }
+              .text_area::placeholder {
+                color: rgba(255, 255, 255, 0.75);
+                font-size: 1.2em;
+              }
+              .button_send {
+                width: 85%;
+                color: rgba(255, 255, 255, 0.75);
+                background-color: rgba(0, 0, 0, 0.24);
+                border: 1px solid rgba(204, 204, 204, 0.43);
+                height: 5em;
+                font-family: $primaryfont;
+                font-size: 1em;
+                cursor: pointer;
+                &:hover {
+                  transition: all 0.3s ease;
+                  color: black;
+                  border: 2px solid white;
+                  background-color: rgba(255, 255, 255, 0.708);
+                  // opacity: 0.5;
+                }
+              }
+            }
+          }
+        }
+
+        .section-4_right {
+          height: 88%;
+          width: 50%;
+          background-color: white;
+          border-top-left-radius: 15em;
+          border-bottom-left-radius: 15em;
+          margin-top: 2.2em;
+          margin-bottom: 2.2em;
+          box-sizing: border-box;
+          padding: 4.5em 4em 4em 8.5em;
+          h1 {
+            font-family: $primaryfont;
+            font-weight: normal;
+            color: #2a8885;
+            font-size: 2em;
+            margin-bottom: 1.1em;
+          }
+
+          p {
+            font-family: $primaryfont;
+            font-size: 1.1em;
+            font-weight: lighter;
+            line-height: 2;
+            margin-bottom: 1.7em;
+            .cp {
+              color: #00599a;
+            }
+          }
+          h2 {
+            font-family: $primaryfont;
+            font-weight: normal;
+            color: #2a8885;
+            font-size: 1.4em;
+            margin-bottom: 0.8em;
+          }
+          .section-4_right-1 {
+            font-family: $primaryfont;
+            font-size: 1.1em;
+            font-weight: lighter;
+            margin-bottom: 0.8em;
+          }
+          .section-4_right-3 {
+            font-family: $primaryfont;
+            font-size: 1.1em;
+            margin-right: 1em;
+            .section-4_right-2 {
+              color: #2a8885;
+              font-family: $primaryfont;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // footer
+  .footer {
+    background-image: url(./ProjectImages/strip-bg.jpg);
+    height: 20vh;
+    width: 100vw;
+    background-size: cover;
+    padding: 0em 4em 0em 4em;
+    box-sizing: border-box;
+    section {
+      height: 100%;
+      width: 100%;
+      background-color: $primarycolor;
+      box-sizing: border-box;
+      padding: 0em 1.3em 1.3em 1.3em;
+      div {
+        background-image: url(./ProjectImages/strip-bg-05.jpg);
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .footer_1 {
+          color: $primarycolor;
+          font-size: 1.1em;
+          font-family: $primaryfont;
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+  // tablet view
+
+  @media (min-width: 426px) and (max-width: 768px) {
+    .main_1 section header nav {
+      display: none;
+    }
+    .main_1 section header label {
+      display: block;
+    }
+    .bi-list:hover + nav {
+      display: block;
+    }
+
+    #check {
+      display: none !important;
+      &:checked ~ .dropdown {
+        display: flex !important;
+      }
+    }
+    .dropdown {
+      display: none !important;
+      position: absolute;
+      right: 0em;
+      top: 7.5em;
+      background-color: #cc9900;
+      height: 13em;
+      width: 15em;
+      list-style-type: none;
+      text-align: right;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-direction: column;
+    }
+    .dropdown li a {
+      text-decoration: none;
+      color: $primarycolor;
+      font-family: $primaryfont;
+      font-size: 1em;
+    }
+    .dropdown li {
+      width: 100%;
+      padding-right: 0.5em;
+      padding-top: 0.5em;
+      height: 100%;
+      &:hover {
+        cursor: pointer;
+        background-color: #9a6600;
+      }
+    }
+    .bi-list {
+      font-size: 2em;
+      color: $primarycolor;
+      display: block;
+      position: relative;
+    }
+    //  section-1
+
+    .main_1 {
+      background-image: none;
+      padding-left: 0em;
+      padding-right: 1em;
+    }
+
+    #home {
+      display: grid;
+      grid-template-rows: 50% 50%;
+      grid-template-columns: 100%;
+      height: 100%;
+      width: 100%;
+    }
+
+    .main_left {
+      width: 97% !important;
+      height: 50%;
+      font-size: 0.7em;
+    }
+    .main_right {
+      width: 100%;
+      height: 50%;
+      font-size: 0.7em;
+
+      margin-top: 0em;
+      display: flex;
+      justify-content: start !important;
+    }
+    // section-2
+    .section-2 {
+      background-image: none;
+      padding-left: 0em;
+      padding-right: 1em;
+    }
+
+    .section-2_main {
+      display: grid !important;
+
+      grid-template-rows: 40% 60% !important;
+      grid-template-columns: 100% !important;
+      height: 100%;
+      width: 100%;
+    }
+    .section-2_right {
+      width: 97% !important;
+      height: 60%;
+      font-size: 0.7em;
+      margin-left: 3%;
+    }
+    .section-2_left img {
+      height: auto;
+      width: 90%;
+    }
+
+    .section-2_left {
+      width: 100%;
+      height: 30%;
+      margin-left: 10em;
+    }
+
+    // section-3
+    .section-3 {
+      background-image: none;
+      padding-left: 0em;
+      padding-right: 1em;
+    }
+
+    .section-3_bg {
+      width: 100%;
+      height: 100%;
+      display: grid !important;
+      grid-template-columns: 100%;
+      grid-template-rows: 60% 40%;
+    }
+    .section-3_left {
+      width: 97% !important;
+      height: 60%;
+      font-size: 0.7em;
+    }
+    .section-3_right {
+      width: 100%;
+      height: 30%;
+      // margin-left: 10em;
+    }
+    .section-3_right img {
+      height: auto;
+      width: 90%;
+      margin-left: 15em;
+    }
+
+    // section-4
+
+    .section-4 {
+      background-image: none;
+      padding-left: 0em;
+      padding-right: 1em;
+    }
+
+    .section-4_main {
+      height: 100%;
+      width: 100%;
+      display: grid !important;
+      grid-template-columns: 100%;
+      grid-template-rows: 50% 50%;
+    }
+
+    .section-4_left {
+      height: 50%;
+      width: 100%;
+      font-size: 0.8em;
+    }
+    .section-4_right {
+      height: 50%;
+      width: 97% !important;
+      font-size: 0.7em;
+      padding-top: 1.7em !important;
+      margin-left: 3%;
+    }
+
+    // footer
+    .footer {
+      background-image: none;
+      padding-left: 0em;
+      padding-right: 1em;
+    }
+  }
+
+  // mobile view
+
+  @media (max-width: 425px) {
+    // nav
+    .main_1 section header nav {
+      display: none;
+    }
+    .main_1 section header label {
+      display: block;
+    }
+    .bi-list:hover + nav {
+      display: block;
+    }
+
+    #check {
+      display: none !important;
+      &:checked ~ .dropdown {
+        display: flex !important;
+      }
+    }
+    .dropdown {
+      display: none !important;
+      position: absolute;
+      right: 0em;
+      top: 6em;
+      background-color: #cc9900;
+      height: 13em;
+      width: 15em;
+      list-style-type: none;
+      text-align: right;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-direction: column;
+    }
+    .dropdown li a {
+      text-decoration: none;
+      color: $primarycolor;
+      font-family: $primaryfont;
+      font-size: 1em;
+    }
+    .dropdown li {
+      width: 100%;
+      padding-right: 0.5em;
+      padding-top: 0.5em;
+      height: 100%;
+      &:hover {
+        cursor: pointer;
+        background-color: #9a6600;
+      }
+    }
+    .bi-list {
+      font-size: 2em;
+      color: $primarycolor;
+      display: block;
+      position: relative;
+    }
+
+    .main_1 section header h1 {
+      padding: 0.5em 1em;
+      font-size: 1.5em;
+    }
+    //  section-1
+    .main_1 {
+      background-image: none;
+      padding: 0em;
+      height: 120%;
+      width: 100%;
+    }
+    #home {
+      height: 100%;
+      width: 100%;
+      display: grid;
+      grid-template-rows: 70% 30%;
+      grid-template-columns: 100%;
+    }
+
+    .main_1 section {
+      padding-bottom: 0em;
+    }
+
+    .main_left {
+      height: 100% !important;
+      width: 95% !important;
+      // font-size: 0.8em;
+      padding-top: 1em;
+      padding-left: 1em !important;
+    }
+    .main_right {
+      padding: 1em !important;
+      margin-top: 2em;
+      margin-bottom: 1em;
+      // font-size: 0.8em;
+    }
+    //  section 2
+    .section-2 {
+      background-image: none;
+      padding: 0em;
+      height: 100% !important;
+      width: 100%;
+    }
+    .section-2_div {
+      height: 100%;
+      width: 100%;
+    }
+    .section-2_main {
+      height: 100% !important;
+      width: 100%;
+      display: grid !important;
+      grid-template-rows: 20% 80%;
+      grid-template-columns: 100%;
+    }
+
+    .section-2_left {
+      height: 100% !important;
+      width: 100% !important;
+    }
+    .section-2_left img {
+      height: 13em;
+      width: 17em;
+      margin: 2em 1em 1em 2em;
+    }
+
+    .section-2_right {
+      width: 100% !important;
+      padding: 5em 2em 4em 6em !important;
+      width: 95% !important;
+      margin-left: 5%;
+      // height: 90% !important;
+      // font-size: 0.8em;
+    }
+
+    // section-3
+
+    .section-3 {
+      background-image: none;
+      padding: 0em;
+      height: 100%;
+      width: 100%;
+    }
+    .section-3_main {
+      height: 100% !important;
+      width: 100%;
+    }
+
+    .section-3_bg {
+      height: 100% !important;
+      width: 100%;
+      display: grid !important;
+      grid-template-rows: 80% 20%;
+      grid-template-columns: 100%;
+    }
+
+    .section-3_left {
+      width: 95% !important;
+      padding: 2em 4em 2em 1em !important;
+      // font-size: 0.8em;
+      height: 100%;
+    }
+
+    .section-3_right {
+      width: 100% !important;
+      height: 100% !important;
+    }
+
+    .section-3_right img {
+      height: 12em;
+      width: 18em;
+      margin: 0em 1em 1em 1em;
+    }
+
+    // section-4
+
+    .section-4 {
+      background-image: none;
+      padding: 0em;
+      height: 100%;
+      width: 100%;
+    }
+    .section-4_bg {
+      height: 100%;
+      width: 100%;
+    }
+    .section-4_main {
+      height: 100% !important;
+      width: 100%;
+      display: grid !important;
+      grid-template-rows: 40% 60%;
+      grid-template-columns: 100%;
+    }
+
+    .section-4_left h1 {
+      margin-bottom: 0.5em !important;
+    }
+    .section-4_left {
+      height: 100%;
+      width: 100%;
+    }
+
+    .section-4_left-main {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 3em;
+    }
+    .section-4_right {
+      height: 100%;
+      width: 95% !important;
+      margin-left: 5%;
+      padding: 6em 1em 2em 7em !important;
+    }
+
+    // footer
+    .footer {
+      background-image: none;
+      padding: 0em;
+    }
+
+    .footer section {
+      height: 100%;
+      width: 96%;
+    }
+
+    .footer section div {
+      height: 100%;
+      width: 100%;
+
+      text-align: center;
+    }
+  }
+}

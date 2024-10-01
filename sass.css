@@ -1,0 +1,830 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+body .main_1 {
+  background-image: url(./ProjectImages/strip-bg.jpg);
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  padding-left: 4em;
+  padding-right: 4em;
+  box-sizing: border-box;
+}
+body .main_1 section {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  padding: 1.3em;
+  box-sizing: border-box;
+}
+body .main_1 section header {
+  height: 18%;
+  width: 100%;
+  background-color: #cc9900;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.9em 1.5em;
+  box-sizing: border-box;
+  margin-bottom: 0.9em;
+  position: relative;
+}
+body .main_1 section header h1 {
+  font-family: sans-serif;
+  color: white;
+  font-size: 2em;
+  padding: 0.8em;
+  border: 1px solid white;
+  font-weight: lighter;
+}
+body .main_1 section header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 70%;
+}
+body .main_1 section header nav li {
+  list-style-type: none;
+}
+body .main_1 section header nav li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+  font-family: sans-serif;
+  padding: 1em;
+}
+body .main_1 section header nav li a:hover {
+  background-color: #9a6600;
+}
+body .main_1 section header #check {
+  display: none;
+}
+body .main_1 section header .dropdown {
+  display: none;
+}
+body .main_1 section header label {
+  display: none;
+}
+body .main_1 section main {
+  background-image: url(./ProjectImages/strip-bg-01.jpg);
+  width: 100%;
+  height: 83%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+body .main_1 section main .main_left {
+  height: 87%;
+  width: 100%;
+  background-image: none;
+  background-color: white;
+  border-top-right-radius: 15em;
+  border-bottom-right-radius: 15em;
+  margin-top: 2.2em;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 3em;
+  padding-right: 4em;
+  box-sizing: border-box;
+  margin-bottom: 2.2em;
+}
+body .main_1 section main .main_left h1 {
+  color: #00599a;
+  font-family: sans-serif;
+  font-size: 2em;
+  font-weight: lighter;
+  margin-bottom: 1em;
+}
+body .main_1 section main .main_left p {
+  font-family: sans-serif;
+  margin-bottom: 1em;
+  line-height: 2;
+  font-size: 1.2em;
+  font-weight: lighter;
+}
+body .main_1 section main .main_left p span {
+  color: #0275d8;
+}
+body .main_1 section main .main_left .main_left-1 {
+  margin-bottom: 0px;
+}
+body .main_1 section main .main_right {
+  background-image: none;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: end;
+  flex-direction: column;
+  padding: 6em 4.4em 5em 6em;
+  box-sizing: border-box;
+}
+body .main_1 section main h1 {
+  color: white;
+  font-family: sans-serif;
+  font-weight: normal;
+  font-size: 2em;
+  margin-bottom: 0.6em;
+}
+body .main_1 section main .main_right-1 {
+  color: white;
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 1.2em;
+  line-height: 2;
+}
+body .section-2 {
+  background-image: url(./ProjectImages/strip-bg.jpg);
+  background-size: cover;
+  width: 100vw;
+  height: 82.2vh;
+  padding-left: 4em;
+  padding-right: 4em;
+  box-sizing: border-box;
+}
+body .section-2 .section-2_div {
+  background-color: white;
+  padding-left: 1.3em;
+  padding-right: 1.3em;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+body .section-2 .section-2_div .section-2_main {
+  background-image: url(./ProjectImages/strip-bg-02.jpg);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  box-sizing: border-box;
+  display: flex;
+}
+body .section-2 .section-2_div .section-2_main .section-2_left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .section-2 .section-2_div .section-2_main .section-2_right {
+  width: 50%;
+  height: 87.2%;
+  background-color: white;
+  border-top-left-radius: 15em;
+  border-bottom-left-radius: 15em;
+  margin-top: 2.2em;
+  margin-bottom: 2.2em;
+  box-sizing: border-box;
+  padding: 4.5em 4em 4em 8.5em;
+}
+body .section-2 .section-2_div .section-2_main .section-2_right h1 {
+  color: #882f33;
+  margin-bottom: 1em;
+  font-family: sans-serif;
+  font-weight: normal;
+  font-size: 2em;
+}
+body .section-2 .section-2_div .section-2_main .section-2_right p {
+  font-family: sans-serif;
+  margin-bottom: 1em;
+  line-height: 1.7;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+body .section-2 .section-2_div .section-2_main .section-2_right .section-2_right-1 {
+  font-weight: lighter;
+}
+body .section-3 {
+  background-image: url(./ProjectImages/strip-bg.jpg);
+  padding-left: 4em;
+  padding-right: 4em;
+  height: 82vh;
+  width: 100vw;
+  box-sizing: border-box;
+  background-size: cover;
+}
+body .section-3 .section-3_main {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  padding-left: 1.3em;
+  padding-right: 1.3em;
+  box-sizing: border-box;
+}
+body .section-3 .section-3_main .section-3_bg {
+  background-image: url(./ProjectImages/strip-bg-03.jpg);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  box-sizing: border-box;
+  display: flex;
+}
+body .section-3 .section-3_main .section-3_bg .section-3_left {
+  height: 88%;
+  width: 50%;
+  background-color: white;
+  border-top-right-radius: 15em;
+  border-bottom-right-radius: 15em;
+  margin-top: 2.2em;
+  margin-bottom: 2.2em;
+  box-sizing: border-box;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 3em;
+  padding-right: 4em;
+}
+body .section-3 .section-3_main .section-3_bg .section-3_left h1 {
+  color: #333333;
+  font-family: sans-serif;
+  font-size: 2em;
+  margin-bottom: 1em;
+  font-weight: normal;
+}
+body .section-3 .section-3_main .section-3_bg .section-3_left p {
+  font-family: sans-serif;
+  line-height: 1.7;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+body .section-3 .section-3_main .section-3_bg .section-3_left .section-3_left-1 {
+  font-weight: lighter;
+  margin-bottom: 1em;
+}
+body .section-3 .section-3_main .section-3_bg .section-3_right {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .section-4 {
+  background-image: url(./ProjectImages/strip-bg.jpg);
+  height: 82vh;
+  width: 100vw;
+  background-size: cover;
+  padding: 0em 4em 0em 4em;
+  box-sizing: border-box;
+}
+body .section-4 .section-4_bg {
+  background-color: white;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  padding: 0em 1.3em 0em 1.3em;
+}
+body .section-4 .section-4_bg .section-4_main {
+  background-image: url(./ProjectImages/strip-bg-04.jpg);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  box-sizing: border-box;
+  display: flex;
+}
+body .section-4 .section-4_bg .section-4_main .section-4_left {
+  height: 100%;
+  width: 50%;
+  padding: 4em 3em;
+  box-sizing: border-box;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+}
+body .section-4 .section-4_bg .section-4_main .section-4_left h1 {
+  color: white;
+  font-family: sans-serif;
+  font-size: 2.2em;
+  margin-bottom: 1.2em;
+  font-weight: normal;
+}
+body .section-4 .section-4_bg .section-4_main .section-4_left .section-4_left-main {
+  display: flex;
+}
+body .section-4 .section-4_bg .section-4_main .section-4_left .section-4_left-main .section-4_left-main-1 {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  gap: 1em;
+  height: 8em;
+  width: 18em;
+}
+body .section-4 .section-4_bg .section-4_main .section-4_left .section-4_left-main .section-4_left-main-1 .input_text {
+  border-radius: 0;
+  color: rgba(255, 255, 255, 0.75);
+  background-color: rgba(0, 0, 0, 0.24);
+  border: 1px solid rgba(204, 204, 204, 0.43);
+  display: block;
+  width: 85%;
+  padding: 0.575rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  outline: none;
+}
+body .section-4 .section-4_bg .section-4_main .section-4_left .section-4_left-main .section-4_left-main-1 .input_text::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.75);
+}
+body .section-4 .section-4_bg .section-4_main .section-4_left .section-4_left-main .section-4_left-main-1 .input_text::placeholder {
+  color: rgba(255, 255, 255, 0.75);
+}
+body .section-4 .section-4_bg .section-4_main .section-4_left .section-4_left-main .section-4_left-main-2 {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  height: 15em;
+  width: 18em;
+  gap: 1em;
+}
+body .section-4 .section-4_bg .section-4_main .section-4_left .section-4_left-main .section-4_left-main-2 .text_area {
+  color: rgba(255, 255, 255, 0.75);
+  background-color: rgba(0, 0, 0, 0.24);
+  border: 1px solid rgba(204, 204, 204, 0.43);
+  outline: none;
+  width: 85%;
+  padding: 1em;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+body .section-4 .section-4_bg .section-4_main .section-4_left .section-4_left-main .section-4_left-main-2 .text_area::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 1.2em;
+}
+body .section-4 .section-4_bg .section-4_main .section-4_left .section-4_left-main .section-4_left-main-2 .text_area::placeholder {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 1.2em;
+}
+body .section-4 .section-4_bg .section-4_main .section-4_left .section-4_left-main .section-4_left-main-2 .button_send {
+  width: 85%;
+  color: rgba(255, 255, 255, 0.75);
+  background-color: rgba(0, 0, 0, 0.24);
+  border: 1px solid rgba(204, 204, 204, 0.43);
+  height: 5em;
+  font-family: sans-serif;
+  font-size: 1em;
+  cursor: pointer;
+}
+body .section-4 .section-4_bg .section-4_main .section-4_left .section-4_left-main .section-4_left-main-2 .button_send:hover {
+  transition: all 0.3s ease;
+  color: black;
+  border: 2px solid white;
+  background-color: rgba(255, 255, 255, 0.708);
+}
+body .section-4 .section-4_bg .section-4_main .section-4_right {
+  height: 88%;
+  width: 50%;
+  background-color: white;
+  border-top-left-radius: 15em;
+  border-bottom-left-radius: 15em;
+  margin-top: 2.2em;
+  margin-bottom: 2.2em;
+  box-sizing: border-box;
+  padding: 4.5em 4em 4em 8.5em;
+}
+body .section-4 .section-4_bg .section-4_main .section-4_right h1 {
+  font-family: sans-serif;
+  font-weight: normal;
+  color: #2a8885;
+  font-size: 2em;
+  margin-bottom: 1.1em;
+}
+body .section-4 .section-4_bg .section-4_main .section-4_right p {
+  font-family: sans-serif;
+  font-size: 1.1em;
+  font-weight: lighter;
+  line-height: 2;
+  margin-bottom: 1.7em;
+}
+body .section-4 .section-4_bg .section-4_main .section-4_right p .cp {
+  color: #00599a;
+}
+body .section-4 .section-4_bg .section-4_main .section-4_right h2 {
+  font-family: sans-serif;
+  font-weight: normal;
+  color: #2a8885;
+  font-size: 1.4em;
+  margin-bottom: 0.8em;
+}
+body .section-4 .section-4_bg .section-4_main .section-4_right .section-4_right-1 {
+  font-family: sans-serif;
+  font-size: 1.1em;
+  font-weight: lighter;
+  margin-bottom: 0.8em;
+}
+body .section-4 .section-4_bg .section-4_main .section-4_right .section-4_right-3 {
+  font-family: sans-serif;
+  font-size: 1.1em;
+  margin-right: 1em;
+}
+body .section-4 .section-4_bg .section-4_main .section-4_right .section-4_right-3 .section-4_right-2 {
+  color: #2a8885;
+  font-family: sans-serif;
+}
+body .footer {
+  background-image: url(./ProjectImages/strip-bg.jpg);
+  height: 20vh;
+  width: 100vw;
+  background-size: cover;
+  padding: 0em 4em 0em 4em;
+  box-sizing: border-box;
+}
+body .footer section {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 0em 1.3em 1.3em 1.3em;
+}
+body .footer section div {
+  background-image: url(./ProjectImages/strip-bg-05.jpg);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .footer section div .footer_1 {
+  color: white;
+  font-size: 1.1em;
+  font-family: sans-serif;
+  margin-bottom: 0;
+}
+@media (min-width: 426px) and (max-width: 768px) {
+  body .main_1 section header nav {
+    display: none;
+  }
+  body .main_1 section header label {
+    display: block;
+  }
+  body .bi-list:hover + nav {
+    display: block;
+  }
+  body #check {
+    display: none !important;
+  }
+  body #check:checked ~ .dropdown {
+    display: flex !important;
+  }
+  body .dropdown {
+    display: none !important;
+    position: absolute;
+    right: 0em;
+    top: 7.5em;
+    background-color: #cc9900;
+    height: 13em;
+    width: 15em;
+    list-style-type: none;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  body .dropdown li a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1em;
+  }
+  body .dropdown li {
+    width: 100%;
+    padding-right: 0.5em;
+    padding-top: 0.5em;
+    height: 100%;
+  }
+  body .dropdown li:hover {
+    cursor: pointer;
+    background-color: #9a6600;
+  }
+  body .bi-list {
+    font-size: 2em;
+    color: white;
+    display: block;
+    position: relative;
+  }
+  body .main_1 {
+    background-image: none;
+    padding-left: 0em;
+    padding-right: 1em;
+  }
+  body #home {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 100%;
+    height: 100%;
+    width: 100%;
+  }
+  body .main_left {
+    width: 97% !important;
+    height: 50%;
+    font-size: 0.7em;
+  }
+  body .main_right {
+    width: 100%;
+    height: 50%;
+    font-size: 0.7em;
+    margin-top: 0em;
+    display: flex;
+    justify-content: start !important;
+  }
+  body .section-2 {
+    background-image: none;
+    padding-left: 0em;
+    padding-right: 1em;
+  }
+  body .section-2_main {
+    display: grid !important;
+    grid-template-rows: 40% 60% !important;
+    grid-template-columns: 100% !important;
+    height: 100%;
+    width: 100%;
+  }
+  body .section-2_right {
+    width: 97% !important;
+    height: 60%;
+    font-size: 0.7em;
+    margin-left: 3%;
+  }
+  body .section-2_left img {
+    height: auto;
+    width: 90%;
+  }
+  body .section-2_left {
+    width: 100%;
+    height: 30%;
+    margin-left: 10em;
+  }
+  body .section-3 {
+    background-image: none;
+    padding-left: 0em;
+    padding-right: 1em;
+  }
+  body .section-3_bg {
+    width: 100%;
+    height: 100%;
+    display: grid !important;
+    grid-template-columns: 100%;
+    grid-template-rows: 60% 40%;
+  }
+  body .section-3_left {
+    width: 97% !important;
+    height: 60%;
+    font-size: 0.7em;
+  }
+  body .section-3_right {
+    width: 100%;
+    height: 30%;
+  }
+  body .section-3_right img {
+    height: auto;
+    width: 90%;
+    margin-left: 15em;
+  }
+  body .section-4 {
+    background-image: none;
+    padding-left: 0em;
+    padding-right: 1em;
+  }
+  body .section-4_main {
+    height: 100%;
+    width: 100%;
+    display: grid !important;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+  }
+  body .section-4_left {
+    height: 50%;
+    width: 100%;
+    font-size: 0.8em;
+  }
+  body .section-4_right {
+    height: 50%;
+    width: 97% !important;
+    font-size: 0.7em;
+    padding-top: 1.7em !important;
+    margin-left: 3%;
+  }
+  body .footer {
+    background-image: none;
+    padding-left: 0em;
+    padding-right: 1em;
+  }
+}
+@media (max-width: 425px) {
+  body .main_1 section header nav {
+    display: none;
+  }
+  body .main_1 section header label {
+    display: block;
+  }
+  body .bi-list:hover + nav {
+    display: block;
+  }
+  body #check {
+    display: none !important;
+  }
+  body #check:checked ~ .dropdown {
+    display: flex !important;
+  }
+  body .dropdown {
+    display: none !important;
+    position: absolute;
+    right: 0em;
+    top: 6em;
+    background-color: #cc9900;
+    height: 13em;
+    width: 15em;
+    list-style-type: none;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  body .dropdown li a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1em;
+  }
+  body .dropdown li {
+    width: 100%;
+    padding-right: 0.5em;
+    padding-top: 0.5em;
+    height: 100%;
+  }
+  body .dropdown li:hover {
+    cursor: pointer;
+    background-color: #9a6600;
+  }
+  body .bi-list {
+    font-size: 2em;
+    color: white;
+    display: block;
+    position: relative;
+  }
+  body .main_1 section header h1 {
+    padding: 0.5em 1em;
+    font-size: 1.5em;
+  }
+  body .main_1 {
+    background-image: none;
+    padding: 0em;
+    height: 120%;
+    width: 100%;
+  }
+  body #home {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 70% 30%;
+    grid-template-columns: 100%;
+  }
+  body .main_1 section {
+    padding-bottom: 0em;
+  }
+  body .main_left {
+    height: 100% !important;
+    width: 95% !important;
+    padding-top: 1em;
+    padding-left: 1em !important;
+  }
+  body .main_right {
+    padding: 1em !important;
+    margin-top: 2em;
+    margin-bottom: 1em;
+  }
+  body .section-2 {
+    background-image: none;
+    padding: 0em;
+    height: 100% !important;
+    width: 100%;
+  }
+  body .section-2_div {
+    height: 100%;
+    width: 100%;
+  }
+  body .section-2_main {
+    height: 100% !important;
+    width: 100%;
+    display: grid !important;
+    grid-template-rows: 20% 80%;
+    grid-template-columns: 100%;
+  }
+  body .section-2_left {
+    height: 100% !important;
+    width: 100% !important;
+  }
+  body .section-2_left img {
+    height: 13em;
+    width: 17em;
+    margin: 2em 1em 1em 2em;
+  }
+  body .section-2_right {
+    width: 100% !important;
+    padding: 5em 2em 4em 6em !important;
+    width: 95% !important;
+    margin-left: 5%;
+  }
+  body .section-3 {
+    background-image: none;
+    padding: 0em;
+    height: 100%;
+    width: 100%;
+  }
+  body .section-3_main {
+    height: 100% !important;
+    width: 100%;
+  }
+  body .section-3_bg {
+    height: 100% !important;
+    width: 100%;
+    display: grid !important;
+    grid-template-rows: 80% 20%;
+    grid-template-columns: 100%;
+  }
+  body .section-3_left {
+    width: 95% !important;
+    padding: 2em 4em 2em 1em !important;
+    height: 100%;
+  }
+  body .section-3_right {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  body .section-3_right img {
+    height: 12em;
+    width: 18em;
+    margin: 0em 1em 1em 1em;
+  }
+  body .section-4 {
+    background-image: none;
+    padding: 0em;
+    height: 100%;
+    width: 100%;
+  }
+  body .section-4_bg {
+    height: 100%;
+    width: 100%;
+  }
+  body .section-4_main {
+    height: 100% !important;
+    width: 100%;
+    display: grid !important;
+    grid-template-rows: 40% 60%;
+    grid-template-columns: 100%;
+  }
+  body .section-4_left h1 {
+    margin-bottom: 0.5em !important;
+  }
+  body .section-4_left {
+    height: 100%;
+    width: 100%;
+  }
+  body .section-4_left-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3em;
+  }
+  body .section-4_right {
+    height: 100%;
+    width: 95% !important;
+    margin-left: 5%;
+    padding: 6em 1em 2em 7em !important;
+  }
+  body .footer {
+    background-image: none;
+    padding: 0em;
+  }
+  body .footer section {
+    height: 100%;
+    width: 96%;
+  }
+  body .footer section div {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+  }
+}/*# sourceMappingURL=sass.css.map */
