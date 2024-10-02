@@ -821,6 +821,7 @@ body .footer section div .footer_1 {
   body .footer section {
     height: 100%;
     width: 100%;
+    padding-right: 2.33em;
   }
   body .footer section div {
     height: 100%;
