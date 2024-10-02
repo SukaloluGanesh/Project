@@ -817,11 +817,12 @@ body .footer section div .footer_1 {
   body .footer {
     background-image: none;
     padding: 0em;
+    width: 100%;
   }
   body .footer section {
     height: 100%;
     width: 100%;
-    padding-right: 2.33em;
+    padding-right: 1.3em;
   }
   body .footer section div {
     height: 100%;
